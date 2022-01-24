@@ -18,6 +18,11 @@ npx detox-cli init
 # same as `detox init`
 ```
 
+```sh
+brew tap wix/brew
+brew install applesimutils
+```
+
 Build test
 
 ```sh

@@ -5,7 +5,7 @@
   "apps": {
     "ios": {
       "type": "ios.app",
-      "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/ReactNativeDetox.app",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativeDetox.app",
       "build": "xcodebuild -workspace ios/ReactNativeDetox.xcworkspace -scheme ReactNativeDetox -sdk iphonesimulator -derivedDataPath ios/build"
     },
     "android": {
