@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeDetox",
+  "name": "reactnativedetox",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,10 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
+    "e2e:build:ios": "npx detox-cli build --configuration ios",
+    "e2e:build:android": "npx detox-cli build --configuration android",
+    "e2e:run:ios": "npx detox-cli test --configuration ios",
+    "e2e:run:android": "npx detox-cli test --configuration android",
     "lint": "eslint ."
   },
   "dependencies": {
